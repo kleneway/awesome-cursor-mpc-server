@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/kleneway-awesome-cursor-mpc-server-badge.png)](https://mseep.ai/app/kleneway-awesome-cursor-mpc-server)
+
 # 🤖 AI Development Assistant MCP Server
 
 Welcome to your AI-powered development toolkit, designed as a Model Context Protocol (MCP) server for Cursor! This project provides intelligent coding assistance through custom AI tools. Note that this is mostly a tutorial demo, and not a production-ready tool.
