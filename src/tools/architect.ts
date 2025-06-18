@@ -1,6 +1,6 @@
 import { z } from "zod";
 import OpenAI from "openai";
-import { OPENAI_API_KEY } from "../env/keys.js";
+import { settings } from "../settings.js";
 
 /**
  * Architect tool
@@ -24,7 +24,8 @@ export async function runArchitectTool(
 ) {
   // Instantiate the new OpenAI client
   const openai = new OpenAI({
-    apiKey: OPENAI_API_KEY,
+    baseURL: settings.OPENAI_BASE_URL,
+    apiKey: settings.OPENAI_API_KEY,
   });
 
   const { task, code } = args;

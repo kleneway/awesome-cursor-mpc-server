@@ -100,7 +100,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
             folderPath: {
               type: "string",
               description:
-                "Path to the full root directory of the repository to diff against main",
+                "Path to the full root directory of the repository to diff against target branch",
             },
           },
           required: ["folderPath"],
