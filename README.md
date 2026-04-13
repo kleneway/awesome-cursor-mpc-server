@@ -70,6 +70,7 @@ For example, try typing in Composer:
 - "Review this code for best practices"
 - "Help me architect a new feature"
 - "Analyze this UI screenshot"
+- [CCHub](https://github.com/Moresl/cchub) - A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).
 
 The agent will ask for your approval before making any tool calls.
 
