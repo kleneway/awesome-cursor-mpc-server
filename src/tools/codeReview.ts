@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { execSync } from "child_process";
+import { execFileSync } from "child_process";
 
 /**
  * CodeReview tool
@@ -22,7 +22,7 @@ export async function runCodeReviewTool(
 
   let diffOutput = "";
   try {
-    diffOutput = execSync(`git -C "${folderPath}" diff`, {
+    diffOutput = execFileSync("git", ["-C", folderPath, "diff"], {
       encoding: "utf-8",
     });
   } catch (error) {
