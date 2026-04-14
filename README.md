@@ -109,4 +109,8 @@ Found a bug or need help? Open an issue with:
 
 I'll be honest though, this is a tutorial demo, and not a production-ready tool so I likely won't be fixing issues. But feel free to fork it and make it your own!
 
+## See also
+
+- [Helium MCP](https://github.com/connerlambden/helium-mcp) — Remote MCP server for market intelligence, ML options pricing, and news bias analysis across 5,000+ sources. Free tier, no API key. [Documentation](https://heliumtrades.com/mcp).
+
 Made with ❤️ by developers, for developers
