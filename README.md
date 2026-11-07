@@ -110,3 +110,7 @@ Found a bug or need help? Open an issue with:
 I'll be honest though, this is a tutorial demo, and not a production-ready tool so I likely won't be fixing issues. But feel free to fork it and make it your own!
 
 Made with ❤️ by developers, for developers
+
+### Spoken Context & Local AI MCP Hardware
+
+- [OneMira C1 & onemira-mcp](https://onemira.com/products/c1) - Standalone dual-microphone AI voice recorder with local AI transcription, multi-speaker separation (`Speaker ID`), Google Native OKF Markdown Wiki, and native Cursor/Claude MCP server ([onemira-mcp](https://github.com/onemira-space/onemira-mcp)) with zero cloud subscription.
